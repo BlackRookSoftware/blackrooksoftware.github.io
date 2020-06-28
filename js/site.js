@@ -5,7 +5,8 @@ var BR_PROJECTS = [
 	'RookScript', 
 	'ArcheText', 
 	'Expression', 
-	'FileSystem'
+	'FileSystem',
+	'Small'
 ];
 
 var PROJECTS_ELEMENT = $Q1('.site-projects');
