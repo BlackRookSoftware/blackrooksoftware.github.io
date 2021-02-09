@@ -31,7 +31,7 @@ var $INC = $INC || function(srcurl)
 		});
 };
 
-var $INCCALL = $INC || function(srcurl, callback)
+var $INCCALL = $INCCALL || function(srcurl, callback)
 {
 	fetch(srcurl)
 	    .then(resp => resp.json())
