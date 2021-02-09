@@ -31,6 +31,15 @@ var $INC = $INC || function(srcurl)
 		});
 };
 
+var $INCCALL = $INC || function(srcurl, callback)
+{
+	fetch(srcurl)
+	    .then(resp => resp.json())
+	    .then(json => {
+	    	callback(json);
+		});
+};
+
 var $ClassAdd = $ClassAdd || function(elem, name)
 {
 	let classes = elem.className.trim().length > 0 ? elem.className.split(/\s+/) : [];
