@@ -22,15 +22,13 @@ var $QE = $QE || function(selector, func)
 
 var $INC = $INC || function(srcurl)
 {
-	let resp = await fetch(srcurl);
-	if (!resp.ok) {
-		console.log("Response from " + srcurl + " not OK: " + resp);
-	} else {
-		let content = await resp.text();
-		$Q1('body').appendChild($Element('script', {
-			"type": 'text/javascript'
-		}, [$Text(content)]));
-	}
+	fetch(srcurl)
+	    .then(resp => resp.text())
+	    .then(content => {
+	    	$Q1('body').appendChild($Element('script', {
+			    "type": 'text/javascript'
+		    }, [$Text(content)]));
+		});
 };
 
 var $ClassAdd = $ClassAdd || function(elem, name)
