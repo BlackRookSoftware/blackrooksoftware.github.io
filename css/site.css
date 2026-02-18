@@ -12,14 +12,14 @@ PRE {
 	border-radius: 3px;
 }
 
-SVG.octicon {
-	display: none;
-}
-
 #page-links {
 	max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.octicon {
+	display: none;
 }
 
 .site-logo {
