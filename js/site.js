@@ -6,7 +6,10 @@ var BR_PROJECTS = [
 	'ArcheText', 
 	'Expression', 
 	'FileSystem',
-	'Small'
+	'Small',
+	'Gloop-GLFW',
+	'Gloop-OpenAL',
+	'Gloop-OpenGL'
 ];
 
 var PROJECTS_ELEMENT = $Q1('.site-projects');
