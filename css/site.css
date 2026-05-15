@@ -18,6 +18,12 @@ KBD {
 	border-radius: 8px;
 }
 
+LI > CODE {
+	padding: 2px;
+	background-color: #bbb;
+	border-radius: 4px;
+}
+
 #page-links {
 	max-width: 600px;
     margin-left: auto;
