@@ -12,6 +12,12 @@ PRE {
 	border-radius: 3px;
 }
 
+KBD {
+	padding: 4px;
+	background-color: #bbb;
+	border-radius: 8px;
+}
+
 #page-links {
 	max-width: 600px;
     margin-left: auto;
