@@ -9,7 +9,9 @@ var BR_PROJECTS = [
 	'Small',
 	'Gloop-GLFW',
 	'Gloop-OpenAL',
-	'Gloop-OpenGL'
+	'Gloop-OpenGL',
+	`Engine`,
+	'GUI'
 ];
 
 var PROJECTS_ELEMENT = $Q1('.site-projects');
